@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12104E6C1A9A7F7E00B06766 /* Soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 12104E671A9A7F7E00B06766 /* Soccer.png */; };
+		12104E6D1A9A7F7E00B06766 /* Tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 12104E681A9A7F7E00B06766 /* Tennis.png */; };
+		12104E6E1A9A7F7E00B06766 /* Cricket.png in Resources */ = {isa = PBXBuildFile; fileRef = 12104E691A9A7F7E00B06766 /* Cricket.png */; };
+		12104E6F1A9A7F7E00B06766 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = 12104E6A1A9A7F7E00B06766 /* Football.png */; };
+		12104E701A9A7F7E00B06766 /* Hockey.png in Resources */ = {isa = PBXBuildFile; fileRef = 12104E6B1A9A7F7E00B06766 /* Hockey.png */; };
+		128456951A9AB72C00F35625 /* AddNewEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128456931A9AB72C00F35625 /* AddNewEquipmentViewController.swift */; };
 		12A6C3791A9631D200E44BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6C3781A9631D200E44BEF /* AppDelegate.swift */; };
-		12A6C37B1A9631D200E44BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6C37A1A9631D200E44BEF /* ViewController.swift */; };
 		12A6C37E1A9631D200E44BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A6C37C1A9631D200E44BEF /* Main.storyboard */; };
 		12A6C3801A9631D300E44BEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A6C37F1A9631D300E44BEF /* Images.xcassets */; };
 		12A6C3831A9631D300E44BEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A6C3811A9631D300E44BEF /* LaunchScreen.xib */; };
 		12A6C38F1A9631D300E44BEF /* TablerifficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6C38E1A9631D300E44BEF /* TablerifficTests.swift */; };
+		12A6C3991A96325E00E44BEF /* SportsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6C3981A96325E00E44BEF /* SportsTVC.swift */; };
+		12A6C39C1A9645DF00E44BEF /* EquipmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6C39B1A9645DF00E44BEF /* EquipmentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12104E671A9A7F7E00B06766 /* Soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soccer.png; sourceTree = "<group>"; };
+		12104E681A9A7F7E00B06766 /* Tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis.png; sourceTree = "<group>"; };
+		12104E691A9A7F7E00B06766 /* Cricket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cricket.png; sourceTree = "<group>"; };
+		12104E6A1A9A7F7E00B06766 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Football.png; sourceTree = "<group>"; };
+		12104E6B1A9A7F7E00B06766 /* Hockey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hockey.png; sourceTree = "<group>"; };
+		128456931A9AB72C00F35625 /* AddNewEquipmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewEquipmentViewController.swift; sourceTree = "<group>"; };
 		12A6C3731A9631D200E44BEF /* Tableriffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tableriffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A6C3771A9631D200E44BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A6C3781A9631D200E44BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12A6C37A1A9631D200E44BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12A6C37D1A9631D200E44BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12A6C37F1A9631D300E44BEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12A6C3821A9631D300E44BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		12A6C3881A9631D300E44BEF /* TablerifficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablerifficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A6C38D1A9631D300E44BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A6C38E1A9631D300E44BEF /* TablerifficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablerifficTests.swift; sourceTree = "<group>"; };
+		12A6C3981A96325E00E44BEF /* SportsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsTVC.swift; sourceTree = "<group>"; };
+		12A6C39A1A963D0C00E44BEF /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; };
+		12A6C39B1A9645DF00E44BEF /* EquipmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12104E711A9A7F8800B06766 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12A6C3781A9631D200E44BEF /* AppDelegate.swift */,
+				12104E671A9A7F7E00B06766 /* Soccer.png */,
+				12104E681A9A7F7E00B06766 /* Tennis.png */,
+				12104E691A9A7F7E00B06766 /* Cricket.png */,
+				12104E6A1A9A7F7E00B06766 /* Football.png */,
+				12104E6B1A9A7F7E00B06766 /* Hockey.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		12A6C36A1A9631D200E44BEF = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +105,15 @@
 		12A6C3751A9631D200E44BEF /* Tableriffic */ = {
 			isa = PBXGroup;
 			children = (
-				12A6C3781A9631D200E44BEF /* AppDelegate.swift */,
-				12A6C37A1A9631D200E44BEF /* ViewController.swift */,
+				12104E711A9A7F8800B06766 /* Images */,
 				12A6C37C1A9631D200E44BEF /* Main.storyboard */,
+				12A6C39A1A963D0C00E44BEF /* Optionals.playground */,
+				12A6C3981A96325E00E44BEF /* SportsTVC.swift */,
 				12A6C37F1A9631D300E44BEF /* Images.xcassets */,
 				12A6C3811A9631D300E44BEF /* LaunchScreen.xib */,
 				12A6C3761A9631D200E44BEF /* Supporting Files */,
+				12A6C39B1A9645DF00E44BEF /* EquipmentVC.swift */,
+				128456931A9AB72C00F35625 /* AddNewEquipmentViewController.swift */,
 			);
 			path = Tableriffic;
 			sourceTree = "<group>";
@@ -192,9 +223,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12104E701A9A7F7E00B06766 /* Hockey.png in Resources */,
+				12104E6C1A9A7F7E00B06766 /* Soccer.png in Resources */,
 				12A6C37E1A9631D200E44BEF /* Main.storyboard in Resources */,
+				12104E6D1A9A7F7E00B06766 /* Tennis.png in Resources */,
+				12104E6F1A9A7F7E00B06766 /* Football.png in Resources */,
 				12A6C3831A9631D300E44BEF /* LaunchScreen.xib in Resources */,
 				12A6C3801A9631D300E44BEF /* Images.xcassets in Resources */,
+				12104E6E1A9A7F7E00B06766 /* Cricket.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A6C37B1A9631D200E44BEF /* ViewController.swift in Sources */,
+				128456951A9AB72C00F35625 /* AddNewEquipmentViewController.swift in Sources */,
+				12A6C39C1A9645DF00E44BEF /* EquipmentVC.swift in Sources */,
+				12A6C3991A96325E00E44BEF /* SportsTVC.swift in Sources */,
 				12A6C3791A9631D200E44BEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +443,7 @@
 				12A6C3941A9631D300E44BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A6C3951A9631D300E44BEF /* Build configuration list for PBXNativeTarget "TablerifficTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				12A6C3971A9631D300E44BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

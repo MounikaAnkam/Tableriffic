@@ -1,15 +1,24 @@
-//
+,.//
 //  AddNewEquipmentViewController.swift
 //  Tableriffic
 //
-//  Created by Michael Rogers on 2/22/15.
-//  Copyright (c) 2015 Michael Rogers. All rights reserved.
+//  Created by Mounika Ankam on 2/22/15.
+//  Copyright (c) 2015 Mounika Ankam. All rights reserved.
 //
 
 import UIKit
 
 class AddNewEquipmentViewController: UIViewController {
 
+    var sportsTVC:SportsTVC!
+    @IBOutlet weak var sportNameTF: UITextField!
+    
+    @IBAction func cancel(sender: AnyObject) {
+        sportsTVC.cancel()
+    }
+    @IBAction func done(sender: AnyObject) {
+        sportsTVC.addNewSport(sportNameTF.text)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
